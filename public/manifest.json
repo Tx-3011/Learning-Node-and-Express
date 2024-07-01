@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.2.1",
+    "name": "Unit Converter",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.jpg"
+    },
+    "icons": {
+        "16": "icon.jpg",
+        "48": "icon.jpg",
+        "128": "icon.jpg"
+    }
+}

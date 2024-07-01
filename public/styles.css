@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+
+:root{
+    --H1-FS: 1.6rem;
+    --H2-FS: 1.25rem;
+    --para-FS: 0.825rem;
+
+    --top-color: #6943FF;
+    --bot-color: #bfbfbf;
+    --box-color: #FFFFFF;
+    --H2-color: #5A537B;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1{
+    font-size: var(--H1-FS);
+    align-self: center;
+    position: absolute;
+    top: 15px;
+}
+
+h2{
+    padding: 1.2rem;
+    font-size: var(--H2-FS);
+    font-weight:600
+}
+
+p{
+    font-size: var(--para-FS);
+    color: black;
+}
+
+.top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27rem;
+    height:17.8125rem;
+    background-color: var(--top-color);
+    color: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.inputBox{
+    margin: 1rem;
+    padding: 0.75rem;
+    border: 1px solid var(--box-color);
+    border-color: var(--box-color);
+    width:7.3125rem;
+    height:5.1875rem;
+    border-radius: 5px;
+    background-color: var(--top-color);
+    font-size: 3.625rem;
+    color: var(--box-color);
+    text-align: center;
+    border-color: var(--box-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.convert{
+    border: 0px;
+    width: 7.3125rem;
+    height: 2.625rem;
+    background-color: var(--box-color);
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-weight:500;
+}
+
+.length,
+.volume,
+.mass{
+    width: 24.25rem;
+    height: 6.75rem;
+    background-color: var(--box-color);
+    text-align: center;
+    color: var(--H2-color);
+    border-radius: 5px;
+
+}
+
+.bottom{
+    height: 27.75rem;
+    width: 27rem;
+    background-color: var(--bot-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+    border-radius: 0px 0px 5px 5px;
+
+
+}
